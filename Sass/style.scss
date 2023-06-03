@@ -84,10 +84,9 @@
     border-radius: 25px;
 }
 
-.customrs {
+.customrs , .customrs4 ,.customrs5{
     background-color: #f6eedf;
     position: relative;
-
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -97,7 +96,8 @@
 }
 
 .customrs h1,
-.creators h2 {
+.creators h2,
+.customrs4 h1 {
     font-size: 2rem;
     color: #f64b3c;
     font-weight: 200;
@@ -105,7 +105,9 @@
 }
 
 .customrs p,
-.creators span {
+.creators span,
+.customrs4 p 
+ {
     font-size: 1.1rem;
     color: #f64b3c;
     width: 500px;
@@ -113,7 +115,7 @@
 
 }
 
-.creators {
+.creators , .popularity , .Package{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -142,7 +144,7 @@
     margin: 30px auto 10px auto;
 }
 
-.customrs2 , .customrs3{
+.customrs2 , .customrs3 , .customrs4{
     background-color: #f64b3c;
     position: relative;
     height: 500px;
@@ -152,7 +154,7 @@
 .customrs3{
     background-color: #f6eedf;
 }
-.best-berger-all , .big-berger-all{
+.best-berger-all , .big-berger-all {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -199,3 +201,55 @@
     background-color: #f64b3c;
     color: #edf0f1;
  }
+.customrs4 h1 , .customrs4 p{
+    color: #fff;
+}
+.popularity article{
+    border: solid 4px #efff;
+    border-radius: 100%;
+    padding: 20px;
+    width: 190px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.popularity .item h2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+.popularity .item span {
+    font-size: 1.8rem;
+    color: #fff;
+}
+.customrs5 h1{
+    color: #f64b3c;
+    font-size: 3rem;
+}
+.Package .item{
+    width: 20%;
+    background-color: #ffffff;
+    border-radius: 2%;
+    padding: 30px 3px;
+   
+}.Package .item h2 , strong{
+    color: #f64b3c;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.Package .item p{
+    color: #f64b3c;
+    font-size: 1rem;
+    margin: 15px auto;
+    font-weight: lighter;
+}
+.Package .item input{
+    width: 60%;
+    background-color:#f64b3c;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    padding: 5px;
+}
