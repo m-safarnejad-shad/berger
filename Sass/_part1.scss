@@ -1,0 +1,59 @@
+.part1 {
+    background-color: #f6eedf;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px 5px;
+
+}
+
+.part1 h1,
+.Chefs h2
+ {
+    font-size: 2rem;
+    color: #f64b3c;
+    font-weight: 200;
+    margin: 30px auto 10px auto;
+}
+
+.part1 p,
+.Chefs span
+ {
+    font-size: 1.1rem;
+    color: #f64b3c;
+    width: 500px;
+    text-align: center;
+
+}
+
+.Chefs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 30px auto;
+
+}
+
+.Chefs img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+
+}
+
+.Chefs h2 {
+    font-size: 1.3rem;
+}
+
+.Chefs span {
+    font-weight: 200;
+    margin: 30px auto 10px auto;
+}
+

@@ -1,0 +1,52 @@
+.part5 {
+    background-color: #f6eedf;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px 5px;
+
+}
+.Package{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 30px auto;
+
+}
+.part5 h1{
+    color: #f64b3c;
+    font-size: 3rem;
+}
+.Package .item{
+    width: 20%;
+    background-color: #ffffff;
+    border-radius: 2%;
+    padding: 30px 3px;
+   
+}.Package .item h2 , strong{
+    color: #f64b3c;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.Package .item p{
+    color: #f64b3c;
+    font-size: 1rem;
+    margin: 15px auto;
+    font-weight: lighter;
+}
+.Package .item input{
+    width: 60%;
+    background-color:#f64b3c;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    padding: 5px;
+}
