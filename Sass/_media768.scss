@@ -1,0 +1,121 @@
+@media (max-width: 768px){
+    // for header
+.menu{
+    display: none;
+}
+.bars{
+    display: flex;
+    .top_menu2{
+        position: absolute;
+    }
+    details{
+        width: 100px;
+        text-align: center;
+        li{
+            padding: 5px 5px;
+            margin-bottom: 5px;
+            background-color:#fff;
+            border-radius: 20px;
+            color: #000;
+        }
+    }
+}
+
+    // for part 1
+    .Chefs{
+    flex-direction: column;
+
+article{
+    margin-top: 20px;
+    }
+}
+// for part 2
+.best-berger-all{
+    flex-direction: column;
+    text-align: center;
+}
+.best-berger-text{
+    width: 85%;
+}
+// for part 3
+.big-berger-all{
+    flex-direction: column;
+    text-align: center;
+}
+.big-berger-text{
+    width: 85%;
+}
+// for part 4
+.popularity{
+    flex-direction: column;
+
+    article{
+        margin-top: 20px;
+    }
+}
+// for part 5
+.part5{ 
+    h1 {
+    font-size: 10vw;
+    }
+}
+.Package{
+    flex-direction: column;
+    .item{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+}
+// for part 6
+.card{
+    h2{
+        width: 85%;
+    }
+}
+// for part 7
+.subscribe{
+    form{
+        width: 80%;
+    }
+    h2{
+font-size: 2rem;
+    }
+    p{
+width: 85%;
+    }
+}
+// for footer
+.footer {
+    display: grid;
+    grid-template-columns: repeat(1, 85%);
+    grid-template-areas: 
+     "box1" 
+     "box2" 
+     "box3" 
+     "box4";
+     text-align: center;
+     text-align: left;
+     article{
+        border-bottom: 3px solid #ffffff;
+        padding: 10px auto;
+     }
+     p {
+        width: 95%;
+     }
+     .paragraph{
+        margin-top: 20px;
+        margin-left: 22px;
+        margin-bottom: 20px;
+     }
+     .paragraph-sh {
+        padding-bottom: 20px;
+        margin-top: 20px;
+        margin-left: 22px;
+        margin-bottom: 20px;
+    }
+}
+
+}
+    
+ 
